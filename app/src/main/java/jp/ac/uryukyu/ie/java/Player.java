@@ -8,14 +8,17 @@ public class Player {
         this.name = name;
     }
 
+    //handの値を取得するためのgetterメソッド
     public int getHand(){
         return hand;
     }
 
+    //nameを取得するためのgetterメソッド
     public String getName(){
         return name;
     }
 
+    //ドローして手札に加えるメソッド
     public void Draw(Trump decks){
         Trump trump = new Trump();
         
